@@ -1,0 +1,77 @@
+
+
+/*.cf:before, .cf:after {*/
+    /*content: " ";*/
+    /*display: table*/
+/*}*/
+/*.cf:after {*/
+    /*clear: both*/
+/*}*/
+/*.clear {*/
+    /*clear: both*/
+/*}*/
+
+.slider {
+    margin: 0 auto;
+    width: 990px
+}
+.slider-container {
+    height: 425px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    position: relative;
+    width: 990px;
+}
+.slider-container .slider-wrapper {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 5000em; /*Fix for prevent display errors*/
+    -webkit-transition: all 800ms ease;
+    -moz-transition: all 800ms ease;
+    -o-transition: all 800ms ease;
+    transition: all 800ms ease;
+}
+.slider-container .slide {
+    float: left;
+    height: 425px;
+    overflow: hidden;
+    position: relative;
+    width: 990px;
+}
+.slider-nav {
+    text-align: center;
+    width: 990px;
+    margin-top: -50px;
+    margin-left: -100px;
+    position: relative;
+    z-index: 5555;
+}
+.slider-nav li {
+    display: inline;
+    padding: 3px;
+}
+.slider-nav .bullet {
+    background-color: #59baa8;
+    border-radius: 50%;
+    display: inline-block;
+    text-indent: -9000px;
+    overflow: hidden;
+    height: 16px;
+    width: 16px;
+}
+.slider-nav .active {
+    background-color: #e7433b
+}
+.slider-nav .prev, .slider-nav .next {
+
+    display: inline-block;
+    text-indent: -9000px;
+    overflow: hidden;
+    height: 16px;
+    width: 16px;
+}
+.slider-nav .next {
+    background-position: -15px top
+}

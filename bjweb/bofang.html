@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爵迹-BJ视频</title>
+    <link rel="stylesheet" type="text/css" href="css/bofang.css">
+    <link rel="stylesheet" type="text/css" href="css/mejs.css">
+    <script src="js/video1.js"></script>
+    <script src="js/video.js"></script>
+    <style type="text/css">
+        ul li {
+            display: inline-block;
+            list-style: none;
+            margin: 6px;
+            line-height: 20px;
+            width: 80px;
+            font-style: normal;
+        }
+
+        ul li a{
+            font-size: 15px;
+            list-style: none;
+            line-height: 5px;
+            font-style: normal;
+            color: black;
+            text-decoration: none;
+
+        }
+        a:link{
+            color: black;
+            text-decoration: none;
+        }
+        a span{
+            font-size: 25px;
+        }
+
+        .rmpd ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 6px;
+            line-height: 5px;
+            height: 20px;
+            font-size: 15px;
+            color: black;
+            text-decoration: none;
+            width: 50px;
+        }
+    </style>
+
+</head>
+<div>
+    <div class="top">
+    <div class="biaoti">
+        <a class="g_logo" title="bj视频网" href="bj.html"target="_blank">
+            <img src="images/tb.jpg"style="width: 80px;height: 80px">
+            <p style="font-size: 60px;float: right;margin-top: -4px">BJ视频</p>
+        </a></div>
+    <div class="sousuo">
+        <div class="sousuo_keywords">
+            <input type="text"name="p"id="keywords"class="sousuo_input"autocomplete="off">
+                <span class="btn_inner">
+                    <input type="button"style="width: 80px;height: 41px;margin-top: 11px;margin-left: -10px"value="搜索">
+                </span>
+        </div>
+    </div>
+    <div class="dzx">
+            <span>
+                <a class="denglu"target="_self"href="#"style="font-style: normal;text-decoration: none;color: black ">登录</a>
+                <span>|</span>
+                <a class="zhuce"target="_self"href="#"style="font-style: normal;text-decoration: none;color: black">注册</a>
+                <span>|</span>
+                <a class="xiaoxi"target="_self"href="#"style="font-style: normal;text-decoration: none;color: black">个人信息</a>
+            </span>
+    </div>
+    </div>
+    <div style="height: 600px;background-color: black">
+        <div style=";width:640px; height:500px;margin-left: 240px;">
+            <video class="mejs-wmp" width="800" height="500" src="video/电影爵迹.ifox" type="video/mp4"
+                   id="player1" poster="images/ljjj.jpg"
+                   controls="controls" preload="none"></video>
+        </div>
+        <script>
+            $('audio,video').mediaelementplayer({
+                success: function(player, node) {
+                    $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+                }
+            });
+
+        </script>
+        <div class="js">
+            <div class="pianming">
+                <h1 class="videotitle"style="padding: 10px;margin-left: 80px;">
+                    <a href="bofang.html"title="临界爵迹"target="_blank"style="font-style: normal;text-decoration: none;color: #979797">临界爵迹</a>
+                    <span class="alias"style="color: #979797;margin-left: 20px">Ages Below Critical</span>
+                    <span class="pingfen"style="margin-left: 20px;color: orange">9.6</span>
+                </h1>
+            </div>
+        </div>
+
+    </div>
+    <div class="wrapper">
+        <div class="jctj">
+            <h2 class="dytj"style="padding: 5px;margin-top: 20px"><a href="#"target="_blank"style="font-style: normal;text-decoration: none;color: black">精彩推荐</a></h2>
+            <hr style="margin-top: -20px;color: #eeeeee">
+            <ul id="dytj">
+                <div class="tpnoe">
+                    <div class="tp">
+                        <img src="images/md3.jpg"style="height: 210px;width: 170px;">
+                    <center>
+                        <p style="font-size:16px;margin-top: 3px">美国队长3：内战</p></center></div>
+                </div>
+                <div class="tpnoe">
+
+                    <div class="tp">
+                        <img src="images/ms.jpg" alt=""style="height: 210px;width: 170px;">
+                        <center>
+                            <p style="font-size:16px;margin-top: 3px">魔兽世界</p></center>
+                    </div>
+                </div>
+                <div class="tpnoe">
+
+                    <div class="tp">
+                        <img src="images/dmbj.jpg" alt=""style="height: 210px;width: 170px;"><center>
+                        <p style="font-size:16px;margin-top: 3px">盗墓笔记</p></center></div>
+
+                </div>
+                <div class="tpnoe">
+
+                    <div class="tp">
+                        <img src="images/hz2.jpg" alt=""style="height: 210px;width: 170px;">
+                        <center>
+                            <p style="font-size:16px;margin-top: 3px">寒战2</p></center>
+                    </div>
+
+                </div>
+                <div class="tpnoe">
+                    <div class="tp">
+                        <img src="images/jj.jpg"style="height: 210px;width: 170px;">
+                        <center>
+                            <p style="font-size:16px;margin-top: 3px">爵迹</p></center>
+                    </div>
+                </div>
+                <div class="tpnoe">
+                    <div class="tp">
+                        <img src="images/bhsj.jpg" alt=""style="height: 210px;width: 170px;">
+                        <center>
+                            <p style="font-size:16px;margin-top: 3px">冰河世纪</p></center>
+                    </div>
+                    <div class="tpnoe">
+
+                        <div class="tp">
+                            <img src="images/qldyx2.jpg" alt=""style="height: 210px;width: 170px;">
+                            <center>
+                                <p style="font-size:16px;margin-top: 3px">权利的游戏</p></center>
+                        </div>
+                    </div>
+                    <div class="tpnoe">
+                        <div class="tp">
+                            <img src="images/ljm.jpg" alt=""style="height: 210px;width: 170px;">
+                            <center>
+                                <p style="font-size:16px;margin-top: 3px">老九门</p></center>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="dyjs">
+            <h2 class="fg"style="padding: 5px;margin-top: 20px">
+                <a href="bofang.html"target="_blank"style="font-style: normal;text-decoration: none;color: black">节目信息</a>
+            </h2>
+            <hr style="margin-top: -20px;color: #eeeeee">
+            <div class="xxjs">
+                <h2 class="xxtitle">
+                    <a class="xxjstitle"title="临界爵迹">临界爵迹</a>
+
+                <span class="fenzhi">
+                    <strong class="num"style="font-size: 25px;margin-right: -5px">9</strong>
+                    <a style="font-size: 15px">.6</a>
+                </span></h2>
+                <p class="daoyan">
+                    <span class="dytitle">导演：</span>
+                    <span>
+                        <a href=""alt=""title="郭敬明"style="margin-left: 15px;color: black">郭敬明</a>
+                    </span>
+                </p>
+                <p class="daoyan">
+                    <span class="mingdan"style="position: relative;float: left">主演：</span>
+                    <span class="yanyuan">
+                        <a href=""title="范冰冰"style="color: black">范冰冰</a>
+                        <span>饰 鬼山莲泉</span>/
+                        <a href=""title="吴亦凡"style="color: black">吴亦凡</a>
+                        <span>饰 银尘</span>/
+                        <a href=""title="陈学冬"style="color: black">陈学冬</a>
+                        <span>饰 麒零</span>/
+                        <a href=""title="陈伟霆"style="color: black">陈伟霆</a>
+                        <span>饰 幽冥</span>/
+                        <a href=""title="王源"style="color: black">王源</a>
+                        <span>饰 苍白少年</span>/
+                    </span>
+                </p>
+                <p class="jieshao">
+                    <span class="jmjs"style="position: relative;float: left">简介：</span>
+                    <span class="wenzi">
+                        传说中的神话奥汀大陆分为水、风、火、地四个国家，水国普通男孩麒零离奇地被七度王爵银尘收为使徒，卷入了这场魂术的风暴，水国隐藏的秘密也渐渐浮出水面..
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="jsfl">
+            <div class="rmpd">
+                <ul style="position: relative;float:left;width: 300px;font-size: 5px;height: 80px">
+                    <h4 class="rm">热门频道</h4>
+                    <ul >
+                        <li>
+                            <a href="bj.html"target="_blank"title="首页">首页</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="电影">电影</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="综艺">综艺</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="娱乐">娱乐</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="MV">MV</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="纪录片">纪录片</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="体育">体育</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="新闻">新闻</a>
+                        </li>
+                    </ul></ul>
+            </div>
+        </div>
+        <div class="jsfl1">
+            <div class="rmpd">
+                <ul style="width: 300px;font-size: 5px;padding: 3%;height: 80px;">
+                    <h4 class="rm">特色推荐</h4>
+                    <ul >
+                        <li>
+                            <a href="bj.html"target="_blank"title="拍客">拍客</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="搞笑">搞笑</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="美剧">美剧</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="英剧">英剧</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="韩剧">韩剧</a>
+                        </li>
+                    </ul></ul>
+            </div>
+        </div>
+        <div class="jsfl2">
+            <div class="rmpd">
+                <ul  style="width: 300px;font-size: 5px;padding: 3%;height: 80px;">
+                    <h4 class="rm">服务</h4>
+                    <ul style="width: 300px;font-size: 5px">
+                        <li>
+                            <a href="bj.html"target="_blank"title="客服">客服</F></a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="帮助">帮助</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="投诉">投诉</a>
+                        </li>
+                        <li>
+                            <a href="bj.html"target="_blank"title="反馈">反馈</a>
+                        </li>
+
+                    </ul></ul>
+            </div>
+        </div>
+    </div>
+    <hr style="margin-left: 80px;margin-right: 80px;margin-top: -80px;border:  1px solid #979797">
+    <div class="db">
+        <center style="margin-left: -30px;margin-top: -15px">
+            <ul>
+                <li><a title="网站介绍"href="aboutus.html">网站介绍</a> </li>|
+                <li><a title="新闻动态"href="aboutus.html">新闻动态</a> </li>|
+                <li><a title="联系方式"href="aboutus.html">联系方式</a> </li>|
+                <li><a title="网站论坛"href="aboutus.html">网站论坛</a> </li>|
+                <li><a title="客服中心"href="aboutus.html">客服中心</a> </li>
+            </ul>
+        </center>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+.dh{
+    /*float: left;*/
+    width: 100%;
+    height: 50px;
+    /*background: black;*/
+}
+#tb{
+    position: relative;
+    float: left;
+    width: 275px;
+    height: 100%;
+    margin-left: 85px;
+    background-image: url("../images/123.jpg");
+    /*background-color: cyan;*/
+}
+.sousuo_input{
+    width: 300px;
+    height: 33px;
+    margin-left: 70px;
+    margin-top: 25px;
+    /*background-color: red;*/
+
+}
+#ssk{
+    float: left;
+    /*width: 400px;*/
+    margin-left: 350px;
+    margin-top: -30px;
+    /*background-color: blue;*/
+}
+.dzx{
+    float: right;
+    width: 200px;
+    height: 30px;
+    margin-top: -25px;
+    line-height: 20px;
+    margin-right:100px;
+    /*background-color: green;*/
+}
+.lunbotu{
+    height: 450px;
+    margin-top: 10px;
+    /*background: red;*/
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.fl{
+    height: 120px;
+    /*background: blue;*/
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 5px;
+
+}
+.bqone{
+    height: 350px;
+    margin-left: 80px;
+
+    margin-right: 80px;
+    margin-top: -20px;
+    /*background: chartreuse;*/
+}
+.bqtwo{
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 80px;
+    /*background: blue;*/
+}
+.bqthree{
+    height: 350px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 80px;
+    /*background: salmon;*/
+}
+.db{
+    height: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 5px;
+    /*background: deeppink;*/
+}
+.tb{
+    float: left;
+    margin-left: 80px;
+    width: 280px;
+    height: 80px;
+    /*background-color: blue;*/
+}
+#bqdh{
+    width: 100%;
+    height: 40px;
+    /*background-color: red;*/
+}
+.flone{
+    overflow: hidden;
+    width: 14%;
+    float: left;
+    padding-left: 3%;
+    margin-top: 5px;
+    font-size: 14px;
+    border-right: 1px solid #979797;
+    /*background-color:red ;*/
+}
+.fltwo{
+    overflow: hidden;
+    width: 14%;
+    float: left;
+    padding-left: 3%;
+    margin-top: 2px;
+    font-size: 14px;
+    border-right: 1px solid #979797;
+
+    /*background-color:blue;*/
+}
+.flthree{
+    overflow: hidden;
+    width: 41%;
+    float: left;
+    padding-left:3%;
+    margin-top: 2px;
+    border-right: 1px solid #979797;
+    font-size: 14px;
+
+    /*background-color:blue;*/
+}
+.flfour{
+    overflow: hidden;
+    width: 18%;
+    float: left;
+    padding-left: 3%;
+    margin-top: 2px;
+    font-size: 14px;
+
+    /*background-color:blue;*/
+}
+
+#dypb{
+    float: left;
+    position: relative;
+    width: 176px;
+    height: 80%;
+    margin: 9px;
+
+}
+.footer{
+    height: 240px;
+    margin: 40px  auto 40px;
+    background-color: #eeeeee;
+}
+.jsfl{
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 310px;
+    height: 160px;
+    padding: 20px 20px 20px 80px;
+    border-right: #979797;
+}
+.jsfl1{
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 310px;
+    height: 160px;
+    padding: 20px 20px 20px 80px;
+    margin-top: -10px;
+
+}
+.jsfl2{
+    overflow: hidden;
+    position: relative;
+    float: right;
+    width: 310px;
+    height: 160px;
+    padding: 20px 20px 20px 80px;
+    margin-right: 103px;
+    margin-top: -10px;
+
+}
+.rm{
+    position: relative;
+    float: left;
+    display: block;
+    padding-left: 5px;
+    font-size: 16px;
+    color: #979797;
+    width: 320px;
+    margin-right: 40px;
+    padding-right: 40px;
+    border-right:1px solid#eeeeee;
+
+ }
